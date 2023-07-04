@@ -58,7 +58,7 @@ export const LoginPage = () => {
         
         
           <Grid container direction='row' justifyContent='end'>
-            <Link component={ RouterLink } to="auth/register">
+            <Link component={ RouterLink } to="/auth/register">
               Crear una cuenta
             </Link>
           </Grid>
