@@ -1,5 +1,5 @@
 import { JournalLayout } from "../layout/JournalLayout"
-import { NoteView, NothingSelectedView } from "../views"
+import { NoteView } from "../views"
 
 
 export const JournalPage = () => {

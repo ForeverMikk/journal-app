@@ -39,7 +39,6 @@ export const SideBar = ({ drawerWith }) => {
                     }
                 </List>
 
-
         </Drawer>
     </Box>
   )
