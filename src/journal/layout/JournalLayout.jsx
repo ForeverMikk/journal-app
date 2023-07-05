@@ -6,7 +6,7 @@ const drawerWith = 240;
 export const JournalLayout = ({children}) => {
   return (
     <Box sx={{display: 'flex'}}>
-        {/* Navbar drawerWith */}
+        {/* Navbar */}
         <Navbar drawerWith={drawerWith}/>
 
         {/* Sidebar */}
@@ -16,8 +16,8 @@ export const JournalLayout = ({children}) => {
             component='main'
             sx={{flexGrow: 1, p: 3}}
         >
-            {/* Toolbar */}
-            {children}
+          {/* <Toolbar /> */}
+          {children}
         </Box>
     </Box>
   )

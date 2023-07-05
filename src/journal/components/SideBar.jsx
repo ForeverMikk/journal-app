@@ -11,7 +11,7 @@ export const SideBar = ({ drawerWith }) => {
             variant="permanet" //temorary si lo quieres ocultar en algunas ocaciones
             open
             sx={{
-                display: {sx: 'block'},
+                display: {xs: 'block'},
                 '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWith}
             }}
             >
